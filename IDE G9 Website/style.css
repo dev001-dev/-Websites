@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #e2e2e2, #c9d6ff);
+}
+
+.container{
+    position: relative;
+    width: 850px;
+    height: 550px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.form-box {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: seagreen;
+    display: flex;
+    align-items: center;
+    color: #333;
+    text-align: center;
+    padding: 40px;
+}
+
+.form {
+    width: 100%;
+}
+
+.container h1{
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    padding: 13px 50px 13px 20px;
+    font-size: 1em;
+    border: none;
+    outline: none;
+    background: #eee;
+    border-radius: 8px;
+    color: #333;
+    font-weight: 500;
+}
+
+.input-box input::placeholder {
+    color: #888;
+    font-weight: 500;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    left: 15px;
+    font-size: 20px;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+.forgot-link{
+    margin: -15px 0 15px;
+    font-size: 0.9em;
+    color: #888;
+    text-decoration: none;
+    display: block;
+}
+
+.forgot-link a {
+    font-size: 14.5px;
+    color: #333;
+    text-decoration: none;
+}
+
+.btn {
+    width: 100%;
+    height: 48px;
+    background: #7494ec;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.container p {
+    font-size: 14.5px;
+    margin: 15px 0;
+}
+
+.social-icons a {
+    display: inline-flex;
+    padding: 10px;
+    border: 2px solid #ccc;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    margin: 0 8px;
+}
